@@ -1,8 +1,24 @@
+/* COLORS*/
+
+/* VERT
+#ebf6f6
+#c0e1d7
+#99d0c1
+#69c0ac
+#319c93
+#007976
+#00574f
+
+GRIS
+#4a4a49
+#9d9d9c
+*/
+
 /* HEADER */
 
 header{
   height: 40vh;
-  background-color: #ebf6f6;
+  background-color: #f5fafb;
 }
 
 #logo{
@@ -11,24 +27,35 @@ header{
 
 #logo img {
  display: block;
- width: 10%;
+ width: 8%;
  margin: auto;
 }
 
-header ul{
+#menu {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-header li{
-  padding-right: 1em;
-  padding-left: 1em;
+#menu li{
+  padding-right: 1.5em;
+  padding-left: 1.5em;
 }
 
-header a{
+#menu a{
   text-decoration: none;
-  color: #69c0ac;
+}
+
+#reseaux {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reseaux img{
+  width: 20px;
+  padding-top: 1em;
+  margin: 0.8em;
 }
 
 /* ARTICLE */
