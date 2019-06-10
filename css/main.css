@@ -85,14 +85,15 @@ article{
   margin-top: 100px;
 }
 
-#showreel{
+#video{
   display: block;
   margin: auto;
   max-width: 90%;
   height: auto;
+  margin-bottom: 50px;
 }
 
-#showreel h2{
+#video h2{
   text-align: center;
   margin-top: 20px;
 }
@@ -144,7 +145,7 @@ iframe{
     margin-top: 0px;
     margin-bottom: -50px;
   }
-  #showreel h2{
+  #video h2{
     margin-top: 0px;
   }
   .projets{
@@ -265,6 +266,232 @@ button{
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
+
+/* PROJET */
+
+.titre{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.photo--couverture{
+  display: block;
+  width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.identite{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+#couleurs--4{
+  max-width: 60%;
+}
+
+.couleur{
+  text-align: center;
+  margin: 50px;
+}
+
+.cercle{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/**/
+#circle--despe--01{
+      background: #F29EC4;
+}
+#circle--despe--02{
+      background: #302B6B;
+}
+#circle--despe--03{
+      background: #62B8E8;
+}
+
+/**/
+#circle--base--01{
+  background: #C61A27;
+}
+#circle--base--02{
+  background: #3C3C3C;
+}
+
+/**/
+#circle--tryo--01{
+  background: #387c7b;
+}
+#circle--tryo--02{
+  background: #7dccc7;
+}
+#circle--tryo--03{
+  background: #bde4e5;
+}
+#circle--tryo--04{
+  background: #cd934d;
+}
+
+/**/
+#circle--ca--01{
+  background: #7fccdf;
+}
+#circle--ca--02{
+  background: #e72486;
+}
+#circle--ca--03{
+  background: #8fbf21;
+}
+#circle--ca--04{
+  background: #f59c00;
+}
+
+/**/
+#circle--hesto--01{
+  background: #000000;
+}
+#circle--hesto--02{
+  background: #83d0f5;
+}
+#circle--hesto--03{
+  background: #f39200;
+}
+
+/* IMAGES */
+
+.images{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+.typo{
+  display: block;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#declinaisons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
+
+#declinaisons img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+}
+
+.petites--images img{
+  display: block;
+  width: 30vw;
+}
+
+.petites--images{
+  display: block;
+  width: 30vw;
+  margin: 25px;
+}
+
+.moodboard{
+  display: block;
+  width: 1040px;
+  margin: auto;
+  padding: 25px;
+}
+
+.animatic--c13 img{
+  display: block;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+#projet--typo-illu img{
+  display: block;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+#arcade img{
+  display: block;
+  width: 350px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* DESPERADOS */
+
+#despe--crane img{
+  display: block;
+  max-width: 15vw;
+  margin: auto;
+}
+
+#despe--rose img{
+  display: block;
+  max-width: 20vw;
+  margin: auto;
+}
+
+#despe--brouillon img{
+  display: block;
+  max-width: 35vw;
+  margin: auto;
+}
+
+#despe--motif img{
+  display: block;
+  max-width: 50vw;
+  margin: 50px;
+}
+
+.despe--montage img{
+  display: block;
+  width: 30vw;
+  margin: 25px;
+}
+
+.despe--1bouteille img{
+  display: block;
+  max-width: 330px;
+  margin: 50px;
+}
+
+.despe--3bouteilles img{
+  display: block;
+  max-width: 760px;
+  margin: 50px;
+}
+
+@media screen and (min-width: 1500px){
+#bouteilles{
+  max-width: 70%;
+}
+    }
 
 /* BACK TO TOP */
 
