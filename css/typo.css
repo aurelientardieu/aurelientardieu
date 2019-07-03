@@ -32,12 +32,6 @@ color: #007976;
   color: #007976;
 }
 
-@media screen and (max-width: 800px){
-  #menu--liens a{
-    font-size: 20px;
-  }
-}
-
 /* ARTICLE */
 h1{
   font-family: 'Josefin Slab', serif;

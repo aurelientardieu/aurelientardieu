@@ -70,12 +70,12 @@ height: 50px;
   }
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
   #logo{
   margin-left: 20px;
   }
   #menu--liens{
-    padding-top: 35px;
+    padding-top: 30px;
     margin-right: 20px;
   }
   #menu--liens a{
@@ -83,8 +83,6 @@ height: 50px;
     margin-right: 10px;
   }
   #nom img{
-    width: 100px;
-    margin-top: 25px;
     margin-left: 70px;
   }
 }
@@ -150,26 +148,9 @@ iframe{
   color: #007976;
 }
 
-@media screen and (max-width: 800px){
-  iframe{
-    margin-top: 0px;
-    margin-bottom: -50px;
-  }
-  #video h2{
-    margin-top: 0px;
-  }
+@media screen and (max-width: 1000px){
   .projets{
-    width: 35%;
-  }
-}
-
-@media screen and (max-width: 600px){
-  iframe{
-    margin-top: -90px;
-    margin-bottom: -100px;
-  }
-  .projets{
-    width: 75%;
+    width: 35vw;
   }
 }
 
@@ -230,7 +211,7 @@ p{
   margin: 35px;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 1000px){
   #rectangle {
         display: none;
       }
@@ -319,12 +300,8 @@ button:hover{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 90%;
+  max-width: 90vw;
   margin: auto;
-}
-
-#couleurs--4{
-  max-width: 60%;
 }
 
 .couleur{
@@ -339,6 +316,12 @@ button:hover{
   margin: auto;
   margin-bottom: 50px;
 }
+
+@media screen and (max-width: 1000px){
+.couleur h4{
+  width:80vw;
+}
+    }
 
 /**/
 #circle--despe--01{
@@ -479,6 +462,16 @@ button:hover{
   padding: 20px;
 }
 
+@media screen and (max-width: 1000px){
+.petites--images{
+  width: 80vw;
+}
+.petites--images img{
+  display: block;
+  width: 80vw;
+}
+    }
+
 /* BACKGROUND FIXE */
 
 .background--fixe{
@@ -516,12 +509,18 @@ button:hover{
   background-image: url('../images/ataqana/bureau_01.png');
 }
 
+@media screen and (max-width: 1000px){
+  .background--fixe{
+    display: none;
+  }
+        }
+
 /* DESPERADOS */
 
 .despe--montage img{
   display: block;
   width: 30vw;
-  margin: 25px;
+  margin:25px;
 }
 
 .despe--1bouteille img{
@@ -547,9 +546,9 @@ margin: auto;
 }
     }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
   .despe--montage img{
-    width: 80%;
+    width: 80vw;
   }
         }
 
