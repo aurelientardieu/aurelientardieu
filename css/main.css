@@ -1,6 +1,9 @@
 body {
   background-color: white;
 }
+html{
+  width: 100vw;
+}
 
 /* HEADER */
 
@@ -232,10 +235,10 @@ p{
         display: none;
       }
   .section--cv{
-        margin-top: 100px;
+        margin-top: 40px;
       }
       .section--cv h4{
-        margin-top: 20px;
+        margin-top: 10px;
         max-width: 90%;
       }
     }
@@ -266,12 +269,32 @@ input, textarea{
 
 button{
   width: 150px;
-  height: 40px;
+  height: 50px;
   background: #C0E1D7;
   border: none;
   border-radius: 5px;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+button:hover{
+  background: #69C0AC;
+}
+
+.telecharger--cv{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#CV button{
+  width: 25vw;
+  height: 100px;
+  border-radius: 10px;
+  margin: 50px;
 }
 
 /* PROJET */
@@ -382,9 +405,15 @@ button{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   max-width: 90%;
   margin: auto;
+}
+.images h4{
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .typo{
@@ -424,7 +453,7 @@ button{
 
 .moodboard{
   display: block;
-  width: 1040px;
+  width: 90vw;
   margin: auto;
   padding: 25px;
 }
@@ -450,38 +479,44 @@ button{
   padding: 20px;
 }
 
-#maquettes{
-  display: block;
-  width: 100%;
-  margin-top: 50px;
-  margin-bottom: 50px;
+/* BACKGROUND FIXE */
+
+.background--fixe{
+  height: 60vh;
+  width: 100vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow: hidden;
+}
+
+#bcg--wm{
+  background-image: url('../images/wine&me/maquettes-wine&me.png');
+}
+
+#bcg--despe{
+  background-image: url('../images/desperados/bcg-fond.png');
+}
+
+#bcg--bad{
+  background-image: url('../images/borne-d-arcade/composition.png');
+}
+
+#bcg--c13{
+  background-image: url('../images/collectif13/20-images/G1-01.jpg');
+}
+
+#bcg--ataqana{
+  background-image: url('../images/ataqana/bureau_01.png');
 }
 
 /* DESPERADOS */
-
-#despe--crane img{
-  display: block;
-  max-width: 15vw;
-  margin: auto;
-}
-
-#despe--rose img{
-  display: block;
-  max-width: 20vw;
-  margin: auto;
-}
-
-#despe--brouillon img{
-  display: block;
-  max-width: 35vw;
-  margin: auto;
-}
-
-#despe--motif img{
-  display: block;
-  max-width: 50vw;
-  margin: 50px;
-}
 
 .despe--montage img{
   display: block;
