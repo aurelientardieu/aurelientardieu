@@ -87,6 +87,25 @@ height: 50px;
   }
 }
 
+@media screen and (max-width: 650px){
+  #logo{
+  margin-top: 25px;
+  }
+  #logo img{
+  width: 40px;
+  height: 40px;
+  }
+  #nom img{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+  #menu--liens{
+    padding-top: 30px;
+    margin-right: 20px;
+  }
+}
+
 /* PORTFOLIO */
 
 article{
@@ -151,6 +170,13 @@ iframe{
 @media screen and (max-width: 1000px){
   .projets{
     width: 35vw;
+  }
+}
+
+@media screen and (max-width: 650px){
+  iframe{
+    margin-top: -150px;
+    margin-bottom: -100px;
   }
 }
 
@@ -278,6 +304,13 @@ button:hover{
   margin: 50px;
 }
 
+@media screen and (max-width: 650px){
+  #CV button{
+    width: 35vw;
+    margin: 30px;
+  }
+}
+
 /* PROJET */
 
 .titre{
@@ -321,6 +354,12 @@ button:hover{
 .couleur h4{
   width:80vw;
 }
+    }
+
+@media screen and (max-width: 650px){
+  .photo--couverture{
+    width: 85vw;
+  }
     }
 
 /**/
@@ -470,6 +509,12 @@ button:hover{
   display: block;
   width: 80vw;
 }
+    }
+
+@media screen and (max-width: 650px){
+  .typo{
+    width: 85vw;
+  }
     }
 
 /* BACKGROUND FIXE */
