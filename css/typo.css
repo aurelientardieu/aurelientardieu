@@ -22,8 +22,7 @@ a {
   font-family: 'Campton';
   font-weight: normal;
   font-style: normal;
-  font-display: swap;
-  font-size: 25px;
+  font-size: 1.5em;
   color: white;
 }
 
@@ -31,7 +30,6 @@ a {
   font-family: 'Campton';
   font-weight: bold;
   font-style: normal;
-  font-display: swap;
   letter-spacing: 4px;
   line-height: 20px;
   font-size: 15px;
@@ -48,8 +46,6 @@ a {
 
 h1{
   font-family: 'Campton';
-  src: url('Campton-SemiBold.woff2') format('woff2'),
-      url('Campton-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-size: 2em;
@@ -61,8 +57,6 @@ h1{
 
 h2{
   font-family: 'Campton';
-  src: url('Campton-Light.woff2') format('woff2'),
-      url('Campton-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-size: 1.4em;
@@ -75,8 +69,6 @@ h2{
 
 h3{
   font-family: 'Campton';
-  src: url('Campton-Bold.woff2') format('woff2'),
-      url('Campton-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-size: 1.4em;
@@ -86,8 +78,6 @@ h3{
 
 h4{
   font-family: 'Campton';
-  src: url('Campton-Book.woff2') format('woff2'),
-      url('Campton-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-size: 1.3em;
@@ -96,16 +86,12 @@ h4{
 }
 .section--cv span{
   font-family: 'Campton';
-  src: url('Campton-Medium.woff2') format('woff2'),
-      url('Campton-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 p{
   font-family: 'Campton';
-  src: url('Campton-Medium.woff2') format('woff2'),
-      url('Campton-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-size: 1.5em;
@@ -114,8 +100,6 @@ p{
 }
 .p--english{
   font-family: 'Campton';
-  src: url('Campton-Light.woff2') format('woff2'),
-      url('Campton-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-size: 1.2em;
@@ -127,8 +111,6 @@ p{
 }
 p span{
   font-family: 'Campton';
-  src: url('Campton-Bold.woff2') format('woff2'),
-      url('Campton-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 color: #00f0be;
@@ -144,8 +126,6 @@ color: #00f0be;
 
 .contact h1{
   font-family: 'Campton';
-  src: url('Campton-SemiBold.woff2') format('woff2'),
-      url('Campton-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-size: 1.5em;
@@ -155,8 +135,6 @@ color: #00f0be;
 
 input, textarea{
   font-family: 'Campton';
-  src: url('Campton-Book.woff2') format('woff2'),
-      url('Campton-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-size: 1.1em;
@@ -166,8 +144,6 @@ input, textarea{
 
 button{
   font-family: 'Campton';
-  src: url('Campton-SemiBold.woff2') format('woff2'),
-      url('Campton-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-size: 1.2em;
@@ -181,16 +157,17 @@ button{
 .button--cv{
   font-size: 0.8em;
 }
-.button--cv .p--english{
-  font-size: 1em;
+.button--cv span{
+  font-family: 'Campton';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8em;
 }
 
 /* BACK TO TOP */
 
 #top{
   font-family: 'Campton';
-  src: url('Campton-Book.woff2') format('woff2'),
-      url('Campton-Book.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-size: 1.2em;
@@ -204,8 +181,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-Thin.woff2') format('woff2'),
-        url('Campton-Thin.woff') format('woff');
+    src: url('../font/Campton-Thin.woff2') format('woff2'),
+        url('../font/Campton-Thin.woff') format('woff');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
@@ -213,17 +190,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-ThinItalic.woff2') format('woff2'),
-        url('Campton-ThinItalic.woff') format('woff');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-ExtraLight.woff2') format('woff2'),
-        url('Campton-ExtraLight.woff') format('woff');
+    src: url('../font/Campton-ExtraLight.woff2') format('woff2'),
+        url('../font/Campton-ExtraLight.woff') format('woff');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -231,17 +199,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-ExtraLightItalic.woff2') format('woff2'),
-        url('Campton-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-Light.woff2') format('woff2'),
-        url('Campton-Light.woff') format('woff');
+    src: url('../font/Campton-Light.woff2') format('woff2'),
+        url('../font/Campton-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -249,17 +208,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-LightItalic.woff2') format('woff2'),
-        url('Campton-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-Book.woff2') format('woff2'),
-        url('Campton-Book.woff') format('woff');
+    src: url('../font/Campton-Book.woff2') format('woff2'),
+        url('../font/Campton-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -267,17 +217,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-BookItalic.woff2') format('woff2'),
-        url('Campton-BookItalic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-Medium.woff2') format('woff2'),
-        url('Campton-Medium.woff') format('woff');
+    src: url('../font/Campton-Medium.woff2') format('woff2'),
+        url('../font/Campton-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -285,17 +226,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-MediumItalic.woff2') format('woff2'),
-        url('Campton-MediumItalic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-SemiBold.woff2') format('woff2'),
-        url('Campton-SemiBold.woff') format('woff');
+    src: url('../font/Campton-SemiBold.woff2') format('woff2'),
+        url('../font/Campton-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -303,17 +235,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-SemiBoldItalic.woff2') format('woff2'),
-        url('Campton-SemiBoldItalic.woff') format('woff');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-Bold.woff2') format('woff2'),
-        url('Campton-Bold.woff') format('woff');
+    src: url('../font/Campton-Bold.woff2') format('woff2'),
+        url('../font/Campton-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -321,17 +244,8 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-BoldItalic.woff2') format('woff2'),
-        url('Campton-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-ExtraBold.woff2') format('woff2'),
-        url('Campton-ExtraBold.woff') format('woff');
+    src: url('../font/Campton-ExtraBold.woff2') format('woff2'),
+        url('../font/Campton-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -339,27 +253,9 @@ button{
 
 @font-face {
     font-family: 'Campton';
-    src: url('Campton-ExtraBoldItalic.woff2') format('woff2'),
-        url('Campton-ExtraBoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-Black.woff2') format('woff2'),
-        url('Campton-Black.woff') format('woff');
+    src: url('../font/Campton-Black.woff2') format('woff2'),
+        url('../font/Campton-Black.woff') format('woff');
     font-weight: 900;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Campton';
-    src: url('Campton-BlackItalic.woff2') format('woff2'),
-        url('Campton-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
     font-display: swap;
 }

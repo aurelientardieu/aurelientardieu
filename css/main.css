@@ -42,6 +42,8 @@ height: 50px;
 
 margin-left: 40px;
 margin-top: 20px;
+-webkit-transition: -webkit-transform 0.3s ease-in-out;
+-moz-transition: -moz-transform 0.3s ease-in-out;
 transition: all .3s ease-in-out;
 }
 
@@ -67,13 +69,15 @@ transition: all .3s ease-in-out;
 
 .menu--liens a {
 	overflow: hidden;
-	padding: 0 5px;
-	height: 0.9em;
+	padding: 0 9px;
+	height: 1em;
   margin-left: 1vw;
   margin-right: 1vw;
 }
 
 .menu--liens a:active{
+  -webkit-transition: -webkit-transform 0s;
+  -moz-transition: -moz-transform 0s;
   transition: 0s;
   color: #00f0be;
 }
@@ -81,9 +85,9 @@ transition: all .3s ease-in-out;
 .menu--liens a span {
 	position: relative;
 	display: inline-block;
-	-webkit-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: 0.3s;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .menu--liens a span::before {
@@ -91,6 +95,7 @@ transition: all .3s ease-in-out;
 	top: 100%;
 	content: attr(data-hover);
 	font-weight: bold;
+  padding-top: 0.075em;
 	-webkit-transform: translate3d(0,0,0);
 	-moz-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
@@ -125,6 +130,8 @@ transition: all .3s ease-in-out;
   width: 30px;
   height:30px;
   margin : 30px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
   transition: all .3s ease-in-out;
 }
 
@@ -263,7 +270,9 @@ iframe{
   display: block;
   max-width: 100%;
   filter: grayscale(0);
-  transition: 0.5s;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .projets:hover img{
@@ -273,7 +282,9 @@ iframe{
 .projets h2{
   margin-top: 20px;
   text-align: center;
-  transition: 0.5s;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .projets:hover h2{
@@ -299,59 +310,36 @@ iframe{
   display: flex;
   justify-content: center;
   align-content: center;
-  max-width: 75vw;
   margin-bottom: 5vh;
+  max-width: 60vw;
+  margin: auto;
 }
 
-.button__bg{
+.button--cv{
+  margin: auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  position: relative;
+  display: inline-block;
+  background: white;
+}
+
+.button--bg{
   width: 20vw;
   height: 5vw;
   padding: 0;
   background : #2d2d2d;
-	overflow: hidden;
-	transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
-  border: 0;
-}
-
-.button--cv:hover .button__bg {
-	transform: scale3d(1.1,1.1,1);
-}
-
-.button--cv .button__bg::before,
-.button--cv .button__bg::after {
+  border: none;
   pointer-events: auto;
-	cursor: pointer;
-	content: '';
-	position: absolute;
-	background: #00f0be;
+  cursor: pointer;
 }
 
-.button--cv .button__bg::before {
-	width: 110%;
-	height: 0;
-	padding-bottom: 110%;
-	top: 50%;
-	left: 50%;
-	border-radius: 50%;
-	transform: translate3d(-50%,-50%,0) scale3d(0,0,1);
-}
-
-.button--cv:hover .button__bg::before {
-	transition: transform 0.4s cubic-bezier(0.1, 0, 0.3, 1);
-	transform: translate3d(-50%,-50%,0) scale3d(1,1,1);
-}
-
-.button--cv .button__bg::after {
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity 0.3s;
-}
-
-.button--cv span{
-  mix-blend-mode: screen;
+.button--bg:hover{
+  background: #00f0be;
+  transform: scale(1.05,1.05);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 p{
@@ -475,6 +463,8 @@ input, textarea{
   padding: 15px;
 }
 input:hover, textarea:hover{
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out;
   transition: all .3s ease-in-out;
   border: 1px solid #00f0be;
 }
