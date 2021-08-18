@@ -42,6 +42,23 @@ a {
   }
 }
 
+/* PORTFOLIO */
+
+.menu--projets a{
+  font-family: 'Campton';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #2d2d2d;
+}
+
+.menu--projets a:hover{
+  color: #00f0be;
+}
+
+
 /* ARTICLE */
 
 h1{

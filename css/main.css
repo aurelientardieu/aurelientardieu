@@ -108,13 +108,7 @@ transition: all .3s ease-in-out;
 	transform: translateY(-100%);
 }
 
-#menu--portfolio{
-  color: #00f0be;
-}
-#menu--about{
-  color: #00f0be;
-}
-#menu--contact{
+#menu--actif{
   color: #00f0be;
 }
 
@@ -227,6 +221,22 @@ background-image: url('../images/facebook_on.svg');
 }
 
 /* PORTFOLIO */
+
+.menu--projets{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.menu--projets a {
+	overflow: hidden;
+	height: 1em;
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
 
 article{
   margin-top: 5vh;
