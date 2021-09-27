@@ -361,7 +361,7 @@ p{
   margin: 0;
 }
 
-.titre--section--cv{
+.titre--section{
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -370,7 +370,7 @@ p{
   margin-top: 2.5vh;
   margin-bottom: 2.5vh;
 }
-.titre--section--cv h2{
+.titre--section h2{
   margin: 10px;
 }
 
