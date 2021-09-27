@@ -267,13 +267,12 @@ iframe{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
 }
 
 .projets{
   display: block;
-  width: 25%;
-  margin: 2%;
+  width: 25vw;
+  margin: 20px 20px 20px 20px;
 }
 
 .projets img{
@@ -405,15 +404,6 @@ p{
   width: 80px;
   height: 80px;
   margin: 35px;
-  -webkit-filter: grayscale(100%); /* Pour les navigateurs Chrome, Safari, Opera */
-  filter: grayscale(100%); /* Firefox */
-}
-.skills img:hover{
-  filter: none;
-  -webkit-filter: none;
-  -webkit-transition: -webkit-transform 0.3s ease-in-out;
-	-moz-transition: -moz-transform 0.3s ease-in-out;
-  transition: all .3s ease-in-out;
 }
 
 .logos{
