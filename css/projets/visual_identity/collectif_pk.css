@@ -1,0 +1,38 @@
+#line--collectif_pk{
+  background-image: url('../../../images/visual_identity/collectif_pk/collectif_pk_ligne.png');
+}
+
+.construction{
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.construction img{
+padding: 20px;
+max-width: 33vw;
+}
+
+.protection{
+  max-width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.protection img{
+  padding: 20px;
+max-width: 33vw;
+}

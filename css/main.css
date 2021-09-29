@@ -227,8 +227,8 @@ background-image: url('../images/facebook_on.svg');
   flex-direction: row;
   justify-content: center;
   align-content: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .menu--projets a {
@@ -300,6 +300,12 @@ iframe{
   color: #00f0be;
 }
 
+.titre--projet{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
 @media screen and (max-width: 1000px){
   .projets{
     width: 35vw;
@@ -307,10 +313,7 @@ iframe{
 }
 
 @media screen and (max-width: 650px){
-  iframe{
-    margin-top: -150px;
-    margin-bottom: -100px;
-  }
+
 }
 
 /* ABOUT */
@@ -367,8 +370,8 @@ p{
   justify-content: left;
   align-items: center;
   margin-left: 15vw;
-  margin-top: 2.5vh;
-  margin-bottom: 2.5vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .titre--section h2{
   margin: 10px;
@@ -378,6 +381,7 @@ p{
       width: 200px;
       height: 2px;
       background: #2D2D2D;
+      margin-left: 10px;
     }
 
 .section--cv{

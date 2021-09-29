@@ -1,3 +1,97 @@
 .titre--section{
   margin-left: 10vw;
 }
+
+.key--visual{
+  max-width: 50vw;
+  margin: auto;
+}
+.key--visual img{
+  max-width: 50vw;
+  margin: 20px;
+}
+
+.line{
+  width: 100vw;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-attachment: fixed;
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px){
+  .line{
+    background-size: 100vh;
+  }
+}
+
+.logotype{
+  max-width: 50vw;
+  margin: auto;
+}
+.logotype img{
+  max-width: 50vw;
+  margin: 20px;
+}
+.variations{
+  width: 80vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.variations li{
+  padding: 20px;
+}
+
+.taille{
+  max-width: 80vw;
+  margin: auto;
+}
+.colors{
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:50vw;
+}
+.colors li{
+  width: 20vw;
+}
+.colors h1{
+  font-family: 'Campton';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.colors p{
+  font-family: 'Campton';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 150%;
+  color: white;
+  text-align: center;
+}
+.colors p span{
+  color: white;
+}
+#color--white h1,
+#color--white p,
+#color--white span{
+  color:grey;
+}
