@@ -239,13 +239,13 @@ background-image: url('../images/facebook_on.svg');
 }
 
 article{
-  margin-top: 5vh;
+  margin-top: 30px;
 }
 
 #video{
   display: block;
   margin: auto;
-  max-width: 90%;
+  max-width: 90vw;
   height: auto;
   margin-bottom: 50px;
 }
@@ -525,12 +525,12 @@ input:hover, textarea:hover{
 #top{
   display: block;
   margin: auto;
-  max-width: 20%;
+  max-width: 20vw;
   text-align: center;
   margin-top: 50px;
   margin-bottom: 80px;
 }
 
 #top img{
-  height: 1em;
+  height: 20px;
 }
