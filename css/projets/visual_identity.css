@@ -145,6 +145,10 @@ max-width: 40vw;
   width: 25vw;
 }
 
+#very--little--pics img{
+  max-width: 15vw;
+}
+
 /* CARTES */
 
 .three--blocs--01{
@@ -250,4 +254,8 @@ max-width: 40vw;
 
 #line--02--wine{
   background-image: url('../../images/visual_identity/wine&me/wine&me_mise_en_situation.png');
+}
+
+#line--03--wine{
+  background-image: url('../../images/visual_identity/wine&me/wine&me_ecran_20.png');
 }
