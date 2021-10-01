@@ -35,20 +35,23 @@ max-width: 40vw;
 /* LARGES PICS */
 
 .one--pic{
-  max-width: 50vw;
+  width: 50vw;
   margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 .one--pic img{
   max-width: 50vw;
-  margin: 20px;
 }
 
 .large--pic{
   width: 90vw;
   margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 .large--pic img{
-  width: 90vw;
+  max-width: 90vw;
 }
 
 #key--visual img{
@@ -144,7 +147,7 @@ max-width: 40vw;
 
 /* CARTES */
 
-.cartes--01{
+.three--blocs--01{
   max-width: 90vw;
   margin: auto;
   margin-top: 20px;
@@ -154,19 +157,97 @@ max-width: 40vw;
   align-items: center;
   justify-content: center;
 }
-.cartes--01 img{
+.three--blocs--01 img{
   max-width: 40vw;
   margin: 20px;
 }
-.cartes--02{
+.three--blocs--02{
   display: flex;
   flex-direction: column;
   align-items: right;
   justify-content: center;
 }
-.cartes--02 img{
+.three--blocs--02 img{
   max-width: 40vw;
   margin: 20px;
 }
 
-/* VIDEO */
+/* COLLECTIF PK */
+
+#line--01--collectif_pk{
+  background-image: url('../../images/visual_identity/collectif_pk/collectif_pk_ligne.png');
+}
+
+#line--02--collectif_pk{
+  background-image: url('../../images/visual_identity/collectif_pk/collectif_pk_mise_en_situation.png');
+}
+
+/* B.A.S.E. */
+
+#line--01--base{
+  background-image: url('../../images/visual_identity/base/base_ligne.png');
+}
+
+#line--02--base{
+  background-image: url('../../images/visual_identity/base/base_mise_en_situation.png');
+}
+
+/* C&J */
+
+#line--01--cj{
+  background-image: url('../../images/visual_identity/c&j/C&J_ligne.png');
+}
+
+#line--02--cj{
+  background-image: url('../../images/visual_identity/c&j/C&J_mise_en_situation.png');
+}
+
+/* COUR D'APPEL */
+
+#line--01--cour_appel{
+  background-image: url('../../images/visual_identity/cour_appel/cour_appel_ligne.png');
+}
+
+#line--02--cour_appel{
+  background-image: url('../../images/visual_identity/cour_appel/cour_appel_mise_en_situation.png');
+}
+
+/* DESPERADOS */
+
+#line--01--desperados{
+  background-image: url('../../images/visual_identity/desperados/desperados_ligne.png');
+}
+
+#line--02--desperados{
+  background-image: url('../../images/visual_identity/desperados/desperados_mise_en_situation.png');
+}
+
+/* HESTO */
+
+#line--01--hesto{
+  background-image: url('../../images/visual_identity/hesto/hesto_ligne.png');
+}
+
+#line--02--hesto{
+  background-image: url('../../images/visual_identity/hesto/hesto_mise_en_situation.png');
+}
+
+/* TRYO */
+
+#line--01--tryo{
+  background-image: url('../../images/visual_identity/tryo/tryo_ligne.png');
+}
+
+#line--02--tryo{
+  background-image: url('../../images/visual_identity/tryo/tryo_mise_en_situation.png');
+}
+
+/* WINE&ME */
+
+#line--01--wine{
+  background-image: url('../../images/visual_identity/wine&me/wine&me_ligne.png');
+}
+
+#line--02--wine{
+  background-image: url('../../images/visual_identity/wine&me/wine&me_mise_en_situation.png');
+}
