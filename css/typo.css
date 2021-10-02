@@ -3,7 +3,17 @@ html{
 }
 a {
   text-decoration: none;
+  font-family: 'Campton';
+  src: url('../font/Campton-Bold.woff2') format('woff2'),
+      url('../font/Campton-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  color:#2d2d2d;
 }
+.link a:hover{
+  color:#00f0be;
+}
+
 body{
   -webkit-font-smoothing: antialiased;
 }

@@ -242,6 +242,13 @@ article{
   margin-top: 30px;
 }
 
+.link{
+  max-width: 50vw;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+}
+
 #video{
   display: block;
   margin: auto;
