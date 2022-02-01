@@ -1,3 +1,261 @@
+#shadow{
+  box-shadow: 5px 5px 15px #d0d0d0;
+}
+
+/* TITRES */
+
 .titre--section{
   margin-left: 10vw;
+}
+
+/* LIST */
+
+.list--pics{
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.list--pics img{
+margin: 20px;
+max-width: 40vw;
+}
+
+.list--pics h2{
+  margin: 20px;
+}
+
+/* LARGES PICS */
+
+.one--pic{
+  width: 50vw;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.one--pic img{
+  max-width: 50vw;
+}
+
+.large--pic{
+  width: 90vw;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+.large--pic img{
+  max-width: 90vw;
+}
+
+#key--visual img{
+  margin: 0;
+}
+
+/* LINE */
+
+.line{
+  width: 100vw;
+  height: 100px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-attachment: fixed;
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px){
+  .line{
+    background-size: 100vh;
+  }
+}
+
+/* LINE 02 */
+
+.line--02{
+  width: 100vw;
+  height: 75vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-size: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1200px){
+  .line--02{
+    background-attachment: scroll;
+  }
+}
+
+/* COLORS */
+
+.colors{
+  width: 100vw;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:50vw;
+}
+.colors li{
+  width: 20vw;
+}
+.colors h1{
+  font-family: 'Campton';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.colors p{
+  font-family: 'Campton';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 150%;
+  color: white;
+  text-align: center;
+}
+.colors p span{
+  color: white;
+}
+#color--white h1,
+#color--white p,
+#color--white span{
+  color:grey;
+}
+
+/* LITTLE PICS */
+
+#little--pics img{
+  width: 25vw;
+}
+
+#very--little--pics img{
+  max-width: 15vw;
+}
+
+/* CARTES */
+
+.three--blocs--01{
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.three--blocs--01 img{
+  max-width: 40vw;
+  margin: 20px;
+}
+.three--blocs--02{
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+}
+.three--blocs--02 img{
+  max-width: 40vw;
+  margin: 20px;
+}
+
+/* COLLECTIF PK */
+
+#line--01--collectif_pk{
+  background-image: url('../../images/visual_identity/collectif_pk/collectif_pk_ligne.png');
+}
+
+#line--02--collectif_pk{
+  background-image: url('../../images/visual_identity/collectif_pk/collectif_pk_mise_en_situation.png');
+}
+
+/* B.A.S.E. */
+
+#line--01--base{
+  background-image: url('../../images/visual_identity/base/base_ligne.png');
+}
+
+#line--02--base{
+  background-image: url('../../images/visual_identity/base/base_mise_en_situation.png');
+}
+
+/* C&J */
+
+#line--01--cj{
+  background-image: url('../../images/visual_identity/c&j/C&J_ligne.png');
+}
+
+#line--02--cj{
+  background-image: url('../../images/visual_identity/c&j/C&J_mise_en_situation.png');
+}
+
+/* COUR D'APPEL */
+
+#line--01--cour_appel{
+  background-image: url('../../images/visual_identity/cour_appel/cour_appel_ligne.png');
+}
+
+#line--02--cour_appel{
+  background-image: url('../../images/visual_identity/cour_appel/cour_appel_mise_en_situation.png');
+}
+
+/* DESPERADOS */
+
+#line--01--desperados{
+  background-image: url('../../images/visual_identity/desperados/desperados_ligne.png');
+}
+
+#line--02--desperados{
+  background-image: url('../../images/visual_identity/desperados/desperados_mise_en_situation.png');
+}
+
+/* HESTO */
+
+#line--01--hesto{
+  background-image: url('../../images/visual_identity/hesto/hesto_ligne.png');
+}
+
+#line--02--hesto{
+  background-image: url('../../images/visual_identity/hesto/hesto_mise_en_situation.png');
+}
+
+/* TRYO */
+
+#line--01--tryo{
+  background-image: url('../../images/visual_identity/tryo/tryo_ligne.png');
+}
+
+#line--02--tryo{
+  background-image: url('../../images/visual_identity/tryo/tryo_mise_en_situation.png');
+}
+
+/* WINE&ME */
+
+#line--01--wine{
+  background-image: url('../../images/visual_identity/wine&me/wine&me_ligne.png');
+}
+
+#line--02--wine{
+  background-image: url('../../images/visual_identity/wine&me/wine&me_mise_en_situation.png');
+}
+
+#line--03--wine{
+  background-image: url('../../images/visual_identity/wine&me/wine&me_ecran_20.png');
 }
