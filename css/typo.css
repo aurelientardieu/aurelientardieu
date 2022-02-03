@@ -1,35 +1,52 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
-
 html{
   text-decoration: none;
 }
 a {
   text-decoration: none;
+  font-family: 'Campton';
+  src: url('../font/Campton-Bold.woff2') format('woff2'),
+      url('../font/Campton-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  color:#2d2d2d;
+}
+.link a:hover{
+  color:#00f0be;
+}
+
+body{
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection{
+  background-color: #00f0be;
+  color: white;
+}
+
+/* Firefox */
+::-moz-selection {
+  background-color: #00f0be;
+  color: white;
 }
 
 /* HEADER */
 
-#menu--liens a{
-font-family: 'Josefin Slab', serif;
-font-style: normal;
-font-weight: 400;
-font-size: 35px;
-color: #C0E1D7;
-text-decoration: none;
+.menu--liens a{
+  font-family: 'Campton';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  color: white;
 }
 
-#menu--liens a:hover{
-  color: #007976;
-}
-/**/
-#titre--portfolio a{
-  color: #007976;
-}
-#titre--about a{
-color: #007976;
-}
-#titre--contact a{
-  color: #007976;
+#nom{
+  font-family: 'Campton';
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 4px;
+  line-height: 20px;
+  font-size: 15px;
+  color: white;
 }
 
 @media screen and (max-width: 650px){
@@ -38,56 +55,105 @@ color: #007976;
   }
 }
 
-/* ARTICLE */
-h1{
-  font-family: 'Josefin Slab', serif;
+/* PORTFOLIO */
+
+.menu--projets a{
+  font-family: 'Campton';
+  font-weight: 600;
   font-style: normal;
-  font-weight: bold;
-  font-size: 35px;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #2d2d2d;
+}
+
+.menu--projets a:hover{
+  color: #00f0be;
+}
+
+
+/* ARTICLE */
+
+h1{
+  font-family: 'Campton';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
   line-height: 130%;
-  color: #69C0AC;
+  color: #00f0be;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
 }
 
 h2{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: 300;
   font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
+  font-size: 1.4em;
   line-height: 130%;
-  color: #C0E1D7;
+  color: #2d2d2d;
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 h3{
-  font-family: 'Josefin Slab', serif;
-  font-style: normal;
+  font-family: 'Campton';
   font-weight: bold;
-  font-size:28px;
+  font-style: normal;
+  font-size: 1.4em;
   line-height: 130%;
-  color: #C0E1D7;
+  color: #2d2d2d;
 }
 
 h4{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
+  font-size: 1.3em;
   line-height: 150%;
-  color: #B2B2B2;
-  margin-left: 10px;
-  margin-right: 30px;
+  color: #2d2d2d;
+}
+
+h5{
+  font-family: 'Campton';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 150%;
+  color: white;
+}
+
+.section--cv span{
+  font-family: 'Campton';
+  font-weight: 500;
+  font-style: normal;
 }
 
 p{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: 500;
   font-style: normal;
-  font-weight: 400;
-  font-size: 28px;
+  font-size: 1.2em;
   line-height: 150%;
-  color: #69C0AC;
+  color: #2d2d2d;
 }
 .p--english{
-  color: #B2B2B2;
+  font-family: 'Campton';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1em;
+  color: #9d9d9d;
+}
+.section--cv .p--english{
+  margin: 0;
+  font-size: 1em;
+}
+p span{
+  font-family: 'Campton';
+  font-weight: bold;
+  font-style: normal;
+color: #00f0be;
 }
 
 @media screen and (max-width: 650px){
@@ -99,42 +165,137 @@ p{
 /* CONTACT */
 
 .contact h1{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: 600;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5em;
   line-height: 130%;
-  color: #69C0AC;
-  margin-left: 5%;
+  color: #00f0be;
 }
 
 input, textarea{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-size: 1.1em;
   line-height: 130%;
+  color: #2d2d2d;
 }
 
 button{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: 600;
   font-style: normal;
-  font-weight: bold;
-  font-size: 1.5em;
-  line-height: 130%;
-  color: #FFFFFF;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
 
+/* ABOUT */
+
+.button--cv{
+  font-size: 0.8em;
+}
+.button--cv span{
+  font-family: 'Campton';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8em;
 }
 
 /* BACK TO TOP */
 
 #top{
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Campton';
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
+  font-size: 1.2em;
   color: #E5E5E5;
   text-decoration: none;
 }
+#top:hover{
+  color:#2d2d2d;
+}
+/**/
 
-font-family: 'Josefin Slab', serif;
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-Thin.woff2') format('woff2'),
+        url('../font/Campton-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-ExtraLight.woff2') format('woff2'),
+        url('../font/Campton-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-Light.woff2') format('woff2'),
+        url('../font/Campton-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-Book.woff2') format('woff2'),
+        url('../font/Campton-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-Medium.woff2') format('woff2'),
+        url('../font/Campton-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-SemiBold.woff2') format('woff2'),
+        url('../font/Campton-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-Bold.woff2') format('woff2'),
+        url('../font/Campton-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-ExtraBold.woff2') format('woff2'),
+        url('../font/Campton-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Campton';
+    src: url('../font/Campton-Black.woff2') format('woff2'),
+        url('../font/Campton-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
