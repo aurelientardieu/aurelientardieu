@@ -176,86 +176,185 @@ max-width: 40vw;
   margin: 20px;
 }
 
-/* COLLECTIF PK */
+/* DIFFUSION */
 
-#line--01--collectif_pk{
-  background-image: url('../../images/visual_identity/collectif_pk/collectif_pk_ligne.png');
+.diffusion{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-#line--02--collectif_pk{
-  background-image: url('../../images/visual_identity/collectif_pk/collectif_pk_mise_en_situation.png');
+/* ANAVAI */
+
+#line--01--anavai{
+  background-image: url('../../images/motion_design/anavai/anavai_ligne.jpg');
 }
 
-/* B.A.S.E. */
+/* ATN */
 
-#line--01--base{
-  background-image: url('../../images/visual_identity/base/base_ligne.png');
+#line--01--atn{
+  background-image: url('../../images/motion_design/atn/atn_ligne.jpg');
 }
 
-#line--02--base{
-  background-image: url('../../images/visual_identity/base/base_mise_en_situation.png');
+/* COLLECTIF 13 */
+
+#line--01--c13{
+  background-image: url('../../images/motion_design/collectif13/c13_ligne.jpg');
 }
 
-/* C&J */
+/* DIREN */
 
-#line--01--cj{
-  background-image: url('../../images/visual_identity/c&j/C&J_ligne.png');
+#line--01--diren{
+  background-image: url('../../images/motion_design/diren/diren_compostage_ligne.jpg');
 }
 
-#line--02--cj{
-  background-image: url('../../images/visual_identity/c&j/C&J_mise_en_situation.png');
+#line--02--diren{
+  background-image: url('../../images/motion_design/diren/diren_economies_ligne.jpg');
 }
 
-/* COUR D'APPEL */
-
-#line--01--cour_appel{
-  background-image: url('../../images/visual_identity/cour_appel/cour_appel_ligne.png');
+#line--03--diren{
+  background-image: url('../../images/motion_design/diren/diren_emballage_ligne.jpg');
 }
 
-#line--02--cour_appel{
-  background-image: url('../../images/visual_identity/cour_appel/cour_appel_mise_en_situation.png');
+/* DS */
+
+#line--01--ds{
+  background-image: url('../../images/motion_design/ds/ds_ligne.jpg');
 }
 
-/* DESPERADOS */
+/* EAU ROYALE */
 
-#line--01--desperados{
-  background-image: url('../../images/visual_identity/desperados/desperados_ligne.png');
+#line--01--eau_royale{
+  background-image: url('../../images/motion_design/eau_royale/eau_royale_ligne.jpg');
 }
 
-#line--02--desperados{
-  background-image: url('../../images/visual_identity/desperados/desperados_mise_en_situation.png');
+/* FARE RATA */
+
+#line--01--fare_rata{
+  background-image: url('../../images/motion_design/fare_rata/fare_rata_ligne.jpg');
 }
 
-/* HESTO */
+/* MIKLUS */
 
-#line--01--hesto{
-  background-image: url('../../images/visual_identity/hesto/hesto_ligne.png');
+#line--01--miklus{
+  background-image: url('../../images/motion_design/miklus/miklus_rexton_ligne.jpg');
 }
 
-#line--02--hesto{
-  background-image: url('../../images/visual_identity/hesto/hesto_mise_en_situation.png');
+#line--02--miklus{
+  background-image: url('../../images/motion_design/miklus/miklus_musso_ligne.jpg');
 }
 
-/* TRYO */
-
-#line--01--tryo{
-  background-image: url('../../images/visual_identity/tryo/tryo_ligne.png');
+#line--03--miklus{
+  background-image: url('../../images/motion_design/miklus/miklus_korando_ligne.jpg');
 }
 
-#line--02--tryo{
-  background-image: url('../../images/visual_identity/tryo/tryo_mise_en_situation.png');
+/* NIPPON AUTO */
+
+#line--01--nippon{
+  background-image: url('../../images/motion_design/nippon_auto/nippon_swift_ligne.jpg');
 }
 
-/* WINE&ME */
-
-#line--01--wine{
-  background-image: url('../../images/visual_identity/wine&me/wine&me_ligne.png');
+#line--02--nippon{
+  background-image: url('../../images/motion_design/nippon_auto/nippon_CH-R_ligne.jpg');
 }
 
-#line--02--wine{
-  background-image: url('../../images/visual_identity/wine&me/wine&me_mise_en_situation.png');
+#line--03--nippon{
+  background-image: url('../../images/motion_design/nippon_auto/nippon_yaris_ligne.jpg');
 }
 
-#line--03--wine{
-  background-image: url('../../images/visual_identity/wine&me/wine&me_ecran_20.png');
+/* OPT */
+
+#line--01--opt{
+  background-image: url('../../images/motion_design/opt/opt_ligne.jpg');
+}
+
+/* PROX-I */
+
+#line--01--prox-i{
+  background-image: url('../../images/motion_design/prox-i/prox-i_ligne.jpg');
+}
+
+/* ROTUI */
+
+#line--01--rotui{
+  background-image: url('../../images/motion_design/rotui/rotui_ligne.jpg');
+}
+
+/* SOCREDO */
+
+#line--01--socredo{
+  background-image: url('../../images/motion_design/socredo/socredo_websoc_ligne.jpg');
+}
+
+#line--02--socredo{
+  background-image: url('../../images/motion_design/socredo/socredo_socenvie_ligne.jpg');
+}
+
+#line--03--socredo{
+  background-image: url('../../images/motion_design/socredo/socredo_socpay_ligne.jpg');
+}
+
+/* SOFIDEP */
+
+#line--01--sofidep{
+  background-image: url('../../images/motion_design/sofidep/sofidep_logo_ligne.jpg');
+}
+
+#line--02--sofidep{
+  background-image: url('../../images/motion_design/sofidep/sofidep_cover_ligne.jpg');
+}
+
+#line--03--sofidep{
+  background-image: url('../../images/motion_design/sofidep/sofidep_post_ligne.jpg');
+}
+
+#line--04--sofidep{
+  background-image: url('../../images/motion_design/sofidep/sofidep_tuto_ligne.jpg');
+}
+
+/* SPCPF */
+
+#line--01--spcpf{
+  background-image: url('../../images/motion_design/spcpf/spcpf_ligne.jpg');
+}
+
+#line--02--spcpf{
+  background-image: url('../../images/motion_design/spcpf/spcpf_cantine_ligne.jpg');
+}
+
+/* TABU */
+
+#line--01--tabu{
+  background-image: url('../../images/motion_design/tabu/tabu_mojito_ligne.jpg');
+}
+
+#line--02--tabu{
+  background-image: url('../../images/motion_design/tabu/tabu_lemon_ligne.jpg');
+}
+
+#line--03--tabu{
+  background-image: url('../../images/motion_design/tabu/tabu_vodka_ligne.jpg');
+}
+
+#line--04--tabu{
+  background-image: url('../../images/motion_design/tabu/tabu_pomme_ligne.jpg');
+}
+
+#line--05--tabu{
+  background-image: url('../../images/motion_design/tabu/tabu_gamme_ligne.jpg');
+}
+
+/* VINI */
+
+#line--01--vini{
+  background-image: url('../../images/motion_design/vini/vini_phone_ligne.jpg');
+}
+
+#line--02--vini{
+  background-image: url('../../images/motion_design/vini/vini_evenement_ligne.jpg');
 }
