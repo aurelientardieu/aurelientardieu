@@ -8,30 +8,6 @@
   margin-left: 10vw;
 }
 
-/* LIST */
-
-.list--pics{
-  max-width: 90vw;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.list--pics img{
-margin: 20px;
-max-width: 40vw;
-}
-
-.list--pics h2{
-  margin: 20px;
-}
-
 /* LARGES PICS */
 
 .one--pic{
@@ -292,11 +268,11 @@ max-width: 40vw;
 }
 
 #line--02--socredo{
-  background-image: url('../../images/motion_design/socredo/socredo_socenvie_ligne.jpg');
+  background-image: url('../../images/motion_design/socredo/socredo_socpay_ligne.jpg');
 }
 
 #line--03--socredo{
-  background-image: url('../../images/motion_design/socredo/socredo_socpay_ligne.jpg');
+  background-image: url('../../images/motion_design/socredo/socredo_socenvie_ligne.jpg');
 }
 
 /* SOFIDEP */
@@ -352,9 +328,9 @@ max-width: 40vw;
 /* VINI */
 
 #line--01--vini{
-  background-image: url('../../images/motion_design/vini/vini_phone_ligne.jpg');
+  background-image: url('../../images/motion_design/vini/vini_evenement_ligne.jpg');
 }
 
 #line--02--vini{
-  background-image: url('../../images/motion_design/vini/vini_evenement_ligne.jpg');
+  background-image: url('../../images/motion_design/vini/vini_phone_ligne.jpg');
 }

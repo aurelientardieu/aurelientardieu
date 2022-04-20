@@ -249,18 +249,93 @@ article{
   padding: 20px;
 }
 
-#video{
-  display: block;
-  margin: auto;
+/* LIST */
+
+.list--pics{
   max-width: 90vw;
-  height: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-#video h2{
-  text-align: center;
+.list--pics img{
+margin: 20px;
+max-width: 40vw;
+}
+
+.list--pics h2{
+  margin: 20px;
+}
+
+.list--videos{
+  max-width: 90vw;
+  margin: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.list--videos video{
+margin: 20px;
+}
+.list--videos iframe{
+margin: 20px;
+}
+.list--videos h2{
+margin: 20px;
+}
+
+/**/
+
+#large--video video{
+  display: block;
+  margin: auto;
+  max-width: 70vw;
+  margin: 25px;
+  margin: 20px;
+}
+#large--video iframe{
+  display: block;
+  margin: auto;
+  max-width: 70vw;
+  padding: 20px;
+}
+
+#medium--video video{
+  display: block;
+  margin: auto;
+  max-width: 40vw;
+  margin: 20px;
+}
+#medium--video iframe{
+  display: block;
+  margin: auto;
+  max-width: 40vw;
+  padding: 20px;
+}
+
+#small--video video{
+  display: block;
+  margin: auto;
+  max-width: 25vw;
+  margin: 20px;
+}
+#small--video iframe{
+  display: block;
+  margin: auto;
+  max-width: 25vw;
+  padding: 20px;
 }
 
 iframe{
