@@ -170,6 +170,10 @@ p span{
 color: #00f0be;
 }
 
+.diffusion{
+  font-size: 1.2em;
+}
+
 @media screen and (max-width: 650px){
   h2{
   font-size: 20px;
